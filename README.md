@@ -2,9 +2,6 @@
 
 Easily send Brevo transactional email and sms with Laravel notifier.
 
-[![Latest Version](https://img.shields.io/github/release/yieldstudio/laravel-brevo-notifier?style=flat-square)](https://github.com/yieldstudio/laravel-brevo-notifier/releases)
-
-
 ## Installation
 
 	composer require travelsolution/laravel-brevo-notifier
@@ -27,7 +24,7 @@ BREVO_SMS_SENDER is limited to 11 for alphanumeric characters and 15 for numeric
 You can publish the configuration file with:
 
 ```shell
-php artisan vendor:publish --provider="YieldStudio\LaravelBrevoNotifier\BrevoNotifierServiceProvider" --tag="config"
+php artisan vendor:publish --provider="TravelSolution\LaravelBrevoNotifier\BrevoNotifierServiceProvider" --tag="config"
 ```
 
 ## Usage
@@ -40,8 +37,8 @@ php artisan vendor:publish --provider="YieldStudio\LaravelBrevoNotifier\BrevoNot
 namespace App\Notifications;
 
 use Illuminate\Notifications\Notification;
-use YieldStudio\LaravelBrevoNotifier\BrevoEmailChannel;
-use YieldStudio\LaravelBrevoNotifier\BrevoEmailMessage;
+use TravelSolution\LaravelBrevoNotifier\BrevoEmailChannel;
+use TravelSolution\LaravelBrevoNotifier\BrevoEmailMessage;
 
 class OrderConfirmation extends Notification
 {
@@ -68,8 +65,8 @@ class OrderConfirmation extends Notification
 namespace App\Notifications;
 
 use Illuminate\Notifications\Notification
-use YieldStudio\LaravelBrevoNotifier\BrevoSmsChannel;
-use YieldStudio\LaravelBrevoNotifier\BrevoSmsMessage;
+use TravelSolution\LaravelBrevoNotifier\BrevoSmsChannel;
+use TravelSolution\LaravelBrevoNotifier\BrevoSmsMessage;
 
 class OrderConfirmation extends Notification
 {
@@ -81,7 +78,7 @@ class OrderConfirmation extends Notification
     public function toBrevoSms($notifiable): BrevoSmsMessage
     {
         return (new BrevoSmsMessage())
-            ->from('YIELD')
+            ->from('TravelSolution')
             ->to('+33626631711')
             ->content('Your order is confirmed.');
     }
@@ -95,14 +92,6 @@ To run the tests, just run `composer install` and `composer test`.
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](https://raw.githubusercontent.com/YieldStudio/.github/main/CONTRIBUTING.md) for details.
-
-### Security
-
-If you've found a bug regarding security please mail [contact@yieldstudio.fr](mailto:contact@yieldstudio.fr) instead of using the issue tracker.
 
 ## Credits
 

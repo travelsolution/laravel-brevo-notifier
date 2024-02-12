@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YieldStudio\LaravelBrevoNotifier;
+namespace TravelSolution\LaravelBrevoNotifier;
 
 final class BrevoEmailMessage
 {
