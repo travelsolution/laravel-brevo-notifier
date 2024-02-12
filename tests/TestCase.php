@@ -1,9 +1,9 @@
 <?php
 
-namespace YieldStudio\LaravelBrevoNotifier\Tests;
+namespace TravelSolution\LaravelBrevoNotifier\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use YieldStudio\LaravelBrevoNotifier\BrevoNotifierServiceProvider;
+use TravelSolution\LaravelBrevoNotifier\BrevoNotifierServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

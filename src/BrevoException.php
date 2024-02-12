@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YieldStudio\LaravelBrevoNotifier;
+namespace TravelSolution\LaravelBrevoNotifier;
 
 use Exception;
 use Psr\Http\Message\ResponseInterface;

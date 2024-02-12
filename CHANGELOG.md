@@ -8,5 +8,4 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 **First release ⚡️**
 
-Replacement for [laravel-sendinblue-notifier](https://github.com/YieldStudio/laravel-sendinblue-notifier)
 Email & SMS support

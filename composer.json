@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "YieldStudio\\LaravelBrevoNotifier\\": "src"
+            "TravelSolution\\LaravelBrevoNotifier\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YieldStudio\\LaravelBrevoNotifier\\Tests\\": "tests"
+            "TravelSolution\\LaravelBrevoNotifier\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "YieldStudio\\LaravelBrevoNotifier\\BrevoNotifierServiceProvider"
+                "TravelSolution\\LaravelBrevoNotifier\\BrevoNotifierServiceProvider"
             ]
         }
     },
