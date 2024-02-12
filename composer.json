@@ -1,9 +1,9 @@
 {
-    "name": "yieldstudio/laravel-brevo-notifier",
+    "name": "travelsolution/laravel-brevo-notifier",
     "description": "Easily send Brevo transactional email and sms with Laravel notifier.",
     "type": "plugin",
     "keywords": [
-        "yieldstudio",
+        "travelsolution",
         "laravel",
         "notifier",
         "notification",
@@ -11,22 +11,8 @@
         "email",
         "sms"
     ],
-    "homepage": "https://github.com/YieldStudio/laravel-brevo-notifier",
+    "homepage": "https://github.com/travelsolution/laravel-brevo-notifier",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "James Hemery",
-            "email": "james@yieldstudio.fr",
-            "homepage": "https://yieldstudio.fr",
-            "role": "Developer"
-        },
-        {
-            "name": "David Tang",
-            "email": "david@yieldstudio.fr",
-            "homepage": "https://yieldstudio.fr",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^8.1|^8.2",
         "illuminate/database": "^9|^10",
